@@ -3,7 +3,7 @@ import streamlit as st
 import altair as alt
 
 # Load the data
-file_path = 'C:/Users/n11500832/OneDrive - Queensland University of Technology/ABE_Project/ABE_Topic.csv'
+file_path = 'ABE_Topic.csv'
 data = pd.read_csv(file_path, encoding='ISO-8859-1')
 
 # Fix column names if necessary by stripping leading/trailing spaces
